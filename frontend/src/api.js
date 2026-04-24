@@ -26,3 +26,12 @@ export const deleteItem = async (id) => {
   const response = await axios.delete(`${API_URL}/${id}`);
   return response.data;
 };
+
+
+/* const BASE_URL = "https://newready1-production.up.railway.app/api";
+
+const ITEM_URL = `${BASE_URL}/items`;
+const USER_URL = `${BASE_URL}/users`;
+
+// Now use ITEM_URL for item functions and USER_URL for user functions
+*/
