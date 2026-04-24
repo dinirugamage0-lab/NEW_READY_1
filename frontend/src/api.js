@@ -2,7 +2,7 @@ import axios from "axios";
 
 // This is the BASE URL of your backend.
 // In the lab, you might need to update this after deployment.
-const API_URL = "http://localhost:5000/api/items";
+const VITE_API_URL = "https://newready1-production.up.railway.app/";
 
 // GET all items from the database
 export const getItems = async () => {
