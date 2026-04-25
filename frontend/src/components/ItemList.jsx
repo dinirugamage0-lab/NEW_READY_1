@@ -27,9 +27,9 @@ const ItemList = ({ items, onEdit, onDelete }) => {
               <td>{item.description}</td>
               <td>{item.quantity}</td>
               {/* .toFixed(2) ensures prices always show 2 decimal places */}
-              <td>${item.price.toFixed(2)}</td>
+              <td>${item.price}</td>
               <td>{item.category}</td>
-              <td>${item.totalPrice.toFixed(2)}</td>
+              <td>${item.totalPrice}</td>
               <td className="action-buttons">
                 <button onClick={() => onEdit(item)} className="edit-btn">
                   Edit
